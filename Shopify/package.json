@@ -1,0 +1,43 @@
+{
+  "name": "shopify-ecommerce-frontend",
+  "version": "1.0.0",
+  "description": "E-commerce website built with Next.js and Shopify Storefront API",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@radix-ui/react-accordion": "^1.1.2",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-slider": "^1.3.6",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@tanstack/react-query": "^5.90.10",
+    "axios": "^1.13.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "graphql-request": "^6.1.0",
+    "lucide-react": "^0.294.0",
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sonner": "^2.0.7",
+    "tailwind-merge": "^2.0.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.0.3",
+    "glob": "^13.0.0",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5.0.0"
+  }
+}
